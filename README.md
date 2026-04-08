@@ -24,8 +24,8 @@ For this assignment, make sure you set up and link to a new page.  This page is 
 
 ## Final project
 Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one)
-[Part II](final-project-part-two)
+[Part I](final-project-part-one.md)
+[Part II](final-project-part-two.md)
 Part III(final-project-part-three)
 
 Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
