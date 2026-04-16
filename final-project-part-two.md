@@ -8,7 +8,7 @@ As a note, I have spent a lot of my time getting my data wrangled. That is almos
 # User research 
 
 ## Target audience
-I want my story to appeal to people who consider themselves fans of women's basketball and those who are not familiar with the sport, so I solicited input from both of those groups.
+I want my story to appeal to people who consider themselves fans of women's basketball and those who are not familiar with the sport, so I solicited input from both of those groups. The 2 non-basketball fans and 1 basketball fan I interviewed were all graduate students.
 
 ## Interview script
 My main goals for this round of feedback were to understand if my visualizations made sense to non-basketball fans. I had them look at the visualizations with some verbal information and asked for their feedback and any information they thought might be helpful to better understand the visualizations. For the basketball fans, I wanted to know if there were gaps in the visualizations I created or potential areas for additional analaysis.
@@ -27,5 +27,4 @@ My main tasks for part III are:
 ## References
 None
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+I did not use AI.
