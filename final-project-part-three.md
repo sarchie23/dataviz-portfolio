@@ -3,7 +3,7 @@
 # The final data story
 > Include a link to your final data story on Shorthand, Esri StoryMaps, etc. here. 
 
-Text here!
+[Article Link](https://github.com/sarchie23/dataviz-portfolio/blob/main/wbb-transfers/index.html)
 
 # Changes made since Part II
 > Include few paragraphs that reflects on changes you made since the completion of Part II. 
