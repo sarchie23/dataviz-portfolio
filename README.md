@@ -13,26 +13,8 @@ I would like to become better at creating concise analyses and visualizations th
 
 # Portfolio
 
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
-
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
-
-## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
-
 ## Final project
-Here it might be helpful to include a high-level description of your final project. 
-[Part I](final-project-part-one.md)
-[Part II](final-project-part-two.md)
-Part III(final-project-part-three)
-
-Looking for more?  A nice Markdown guide [can be found here](https://www.markdownguide.org/cheat-sheet/)
-
-## References
-_List any references you used here._
+My project was an [article](https://github.com/sarchie23/dataviz-portfolio/blob/main/final-project-part-three.md) about the transfer portal in women's college basketball. 
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+I used AI to help generate the code for my visualizations and to create the html file that I rendered into a webpage. I used Claude's coding assistant.
