@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Critique By Design 2 – Samantha Archie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #555;
+      --rule: #ddd;
+      --accent: #2a6496;
+      --bg: #faf9f7;
+      --max: 780px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.75;
+      padding: 60px 24px 100px;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .site-nav {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 48px;
+    }
+    .site-nav a { color: var(--accent); text-decoration: none; }
+    .site-nav a:hover { text-decoration: underline; }
+    .site-nav span { margin: 0 6px; }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      color: var(--ink);
+    }
+
+    .byline {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--ink);
+    }
+
+    /* Section headings */
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 56px;
+      margin-bottom: 16px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 10px;
+      color: var(--ink);
+    }
+
+    h4 {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      color: var(--muted);
+    }
+
+    p { margin-bottom: 18px; color: #333; }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration: none; }
+
+    ul {
+      margin: 0 0 18px 20px;
+      color: #333;
+    }
+    ul li { margin-bottom: 6px; }
+
+    /* Images */
+    .viz-img {
+      width: 100%;
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      margin: 24px 0;
+      display: block;
+    }
+
+    /* Callout / feedback box */
+    .feedback-box {
+      background: #f0f4f8;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 6px 6px 0;
+      padding: 24px 28px;
+      margin: 28px 0;
+    }
+    .feedback-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+      font-style: normal;
+    }
+
+    /* Tableau embed wrapper */
+    .tableau-wrapper {
+      margin: 36px 0;
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    /* References */
+    .references {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .references h2 { font-size: 1.1rem; margin-top: 0; }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 48px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="site-nav">
+    <a href="https://sarchie23.github.io/dataviz-portfolio/">Home</a>
+    <span>›</span>
+    Critique By Design 2
+  </nav>
+
+  <h1>Critique By Design 2</h1>
+  <p class="byline">By Samantha Archie</p>
+
+  <!-- Step 1 -->
+  <h2>Step One: The Visualization</h2>
+  <p>
+    The World's 50 Largest Cities, From 1975 to 2050
+    (<a href="https://www.visualcapitalist.com/ranked-the-worlds-50-largest-cities-from-1975-to-2050/" target="_blank">Link</a>)
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/96fb5c92-c4c4-41f9-8899-07429eb8d30e"
+       alt="Original visualization: The World's 50 Largest Cities from 1975 to 2050">
+  <p>
+    I chose this visualization because I found the material interesting but presented poorly.
+  </p>
+
+  <!-- Step 2 -->
+  <h2>Step Two: The Critique</h2>
+  <p>
+    The information presented is not complicated to understand; this is information that the general public knows.
+    But by presenting it as a series of 50 × 4 bubble charts with flags and a callout number on the side in a
+    semi-circle around a globe with 10 points, it is a lot to digest. The message of what to take away is not clear.
+    It is hard to read with small font. Knowing the underlying trends from my own prior work and academic experience
+    as well as from investigating this image and its data for a few hours, I thought I could simplify the graphic
+    and convey most of the information it attempted to present.
+  </p>
+
+  <!-- Step 3 -->
+  <h2>Step Three: Sketch a Solution</h2>
+  <p>
+    I started out thinking about making a Sankey diagram or bump chart that would show country population ranks
+    during the visualization time period (1975–2025), as shown in the sketch below.
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/3dea4e57-389c-4bb8-84ed-4d4c1dff6d48"
+       alt="Sketch of bump chart idea">
+  <p>
+    The data linked to the visualization had 4 time periods for the top 50 cities in 2050. I initially used that
+    to try to generate some graphs but quickly realized that the data was incomplete. The list only included the
+    top 50 cities in 2050 (projected) and their populations during the time periods. But those cities are not
+    necessarily the top 50 cities for the previous three time periods. So then I went to the data source for the
+    visualization and gathered the top 50 cities at all of the four time points and then tried to make a
+    Sankey/bump chart but that got very messy very quickly because there are many cities that enter and exit the
+    list during the different time periods. An example of a bump chart looking at the top 10 cities in each time
+    period is shown below. Note: the highest rank (1) is at the bottom of the chart (I would reverse this if I
+    was to keep going forward with this design).
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/09bdd0fe-7a44-47a6-b210-daa228cf10d2"
+       alt="Bump chart top 10 cities">
+  <p>
+    Then I thought I would try keeping the top 30 from the 2050 projections and just show those countries going
+    back in time, which is shown in the image below. Note: the highest rank (1) is at the bottom of the chart
+    (I would reverse this if I was to keep going forward with this design).
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/9a9022b3-42a1-4895-a568-534f3a5de4f4"
+       alt="Bump chart top 30 cities">
+  <p>
+    That made me realize another issue: how to classify regions. This
+    <a href="https://ourworldindata.org/world-region-map-definitions" target="_blank">article</a>
+    helped me think through some potential options because I wanted there to be some meaningful groupings,
+    especially for Asia, which comprised a lot of the cities. I tried to split up the major continents into
+    meaningful sub-groups where appropriate and then use different hues of the same color for those continents.
+    I got very bogged down in which one to use and they all left me feeling frustrated — I still think the bump
+    chart was more difficult to interpret even if I got the groupings right.
+  </p>
+  <p>
+    I tried another type of visualization, the tree chart, which is shown below. I added a time component so it
+    could cycle through different time periods. But that didn't capture the change over the entire period well,
+    in my opinion, which was a key component of the initial visualization.
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/26855090-e966-4d98-8e2b-9f555528e07d"
+       alt="Tree chart with time component">
+  <p>
+    I then tried to do a bubble chart, taking a part of the initial visualization that I liked but presenting it
+    linearly rather than in a semi-circle. I still ran into the region issue and it was too large to fit on my
+    15" screen, which I thought was a problem.
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/1c9b6257-c434-4bf0-8e3a-1ce07a8a7060"
+       alt="Linear bubble chart sketch">
+  <p>
+    Then I landed on my best solution to this point, which was a map. The map had the top 50 cities in 2050
+    with bubbles representing population size and the color representing change in population from 1975–2025.
+    I also included a 2050 rank label.
+  </p>
+  <img class="viz-img"
+       src="https://github.com/user-attachments/assets/e4c35b64-e7e1-4e37-b793-051c4ca19cc2"
+       alt="Map visualization with bubble size and color encoding">
+
+  <!-- Step 4 -->
+  <h2>Step Four: Test the Solution</h2>
+  <p>
+    I tested this solution by giving Claude AI the screenshot of the map above, the link to the initial
+    visualization, and the following prompt: <em>"I tried to improve the following visualization.
+    Can you provide me some feedback to help improve my visualization. What is working? What is not working?
+    What would make it work better?"</em>
+  </p>
+
+  <div class="feedback-box">
+    <h3>Claude Feedback</h3>
+    <p>This is a solid start! Here's honest feedback:</p>
+
+    <h4>What's working</h4>
+    <ul>
+      <li>The color encoding for percent change is a smart choice — it immediately draws the eye to high-growth cities (dark blue in Africa/South Asia)</li>
+      <li>The tooltip is rich and informative with ranks across multiple years, which gives real context</li>
+      <li>Bubble size by 2050 population is intuitive and readable</li>
+      <li>The title is clear and descriptive</li>
+    </ul>
+
+    <h4>What's not working</h4>
+    <ul>
+      <li>The numbers on the bubbles (rank labels) are cluttering the map badly — overlapping each other and the bubbles, making it hard to read either</li>
+      <li>The color legend is truncated — "SUM(Percent Change i..." is not a user-friendly label</li>
+      <li>The size legend shows raw numbers like 8,661,000 instead of "8.7M" or "8.7 million" — hard to scan quickly</li>
+      <li>The diverging color scale with −27% to 7164% is extremely skewed, meaning most cities probably look similar in color while a few outliers dominate the scale. A log transform or capping the scale would help differentiation</li>
+      <li>No city labels on hover context — the rank numbers without names aren't useful at a glance</li>
+    </ul>
+
+    <h4>What would make it better</h4>
+    <ul>
+      <li>Remove or hide the rank number labels from the map, or only show them on hover</li>
+      <li>Rename the legend fields to plain English</li>
+      <li>Format the size legend in millions</li>
+      <li>Consider a log scale for the percent change color to handle the extreme outliers like Dar es Salaam</li>
+      <li>Adding a small regional filter or highlight action could make it more interactive and explorable</li>
+    </ul>
+  </div>
+
+  <h3>Synthesis</h3>
+  <p>
+    The feedback was very pragmatic and helpful. It caught some formatting things I had not noticed (legend titles)
+    and the note about the scale coloring was very helpful.
+  </p>
+
+  <!-- Step 5 -->
+  <h2>Step Five: Build the Solution</h2>
+  <p>
+    I implemented many of the suggestions. I ended up switching from percent change in population to change in rank.
+    That required pulling in some extra data manually from the original visualization. I uploaded a new screenshot
+    of the map to Claude and asked for more feedback, and it suggested limiting the color scale to 50 on the top
+    end (the top value was originally 2000+ and was skewing the colors for all other values), which I think makes
+    sense — it is basically saying that those with 50+ values were not on the original list. How far off the list
+    they were is interesting but it obscures the patterns of what happened to cities originally on the list, which
+    I think is more important.
+  </p>
+
+  <!-- Tableau Embed -->
+  <div class="tableau-wrapper">
+    <div class='tableauPlaceholder' id='viz1778026789726' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Top 50 Most Populated Cities in 2050'
+               src='https://public.tableau.com/static/images/La/LargestCities_Updated/Top50MostPopulatedCitiesin2050/1_rss.png'
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='LargestCities_Updated/Top50MostPopulatedCitiesin2050' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/La/LargestCities_Updated/Top50MostPopulatedCitiesin2050/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+        <param name='filter' value='publish=yes' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1778026789726');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <!-- References -->
+  <div class="references">
+    <h2>References</h2>
+    <p>
+      Our World in Data &amp; Our World in Data team. (2018, January 25). <em>Definitions of world regions.</em>
+      Our World in Data.
+      <a href="https://ourworldindata.org/world-region-map-definitions" target="_blank">https://ourworldindata.org/world-region-map-definitions</a>
+    </p>
+
+    <h2 style="margin-top:24px;">AI Acknowledgements</h2>
+    <p>
+      I used Claude AI to provide suggestions for my visualization as mentioned above and to troubleshoot Tableau.
+      See the conversation in this
+      <a href="https://claude.ai/share/eceda0a4-5a2c-48da-9c5c-4f33fb5e4a97" target="_blank">link</a>.
+    </p>
+  </div>
+
+</div>
+</body>
+</html>
