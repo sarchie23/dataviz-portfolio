@@ -13,6 +13,9 @@ I would like to become better at creating concise analyses and visualizations th
 
 # Portfolio
 
+## Critique by Design
+This is a [critique](https://sarchie23.github.io/dataviz-portfolio/critique-by-design2.html) of an existing visualization and an updated version I created along with documentation of the process.
+
 ## Final project
 My project was an [article](https://github.com/sarchie23/dataviz-portfolio/blob/main/final-project-part-three.md) about the transfer portal in women's college basketball. 
 
